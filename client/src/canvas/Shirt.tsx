@@ -14,7 +14,7 @@ const Shirt = () => {
 
     console.log(materials.lambert1.color)
 
-    useFrame((state, delta) => {
+    useFrame((_, delta) => {
         easing.dampC(materials.lambert1.color, snap.color, 0.25, delta);
     })
 
