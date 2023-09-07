@@ -16,3 +16,5 @@ app.get('/', (req, res) => {
 app.use('/api/v1/dalle', dalleeRoutes);
 
 app.listen(8080, () => console.log('Server has started on port 3000'));
+
+export default app;
